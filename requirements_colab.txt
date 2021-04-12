@@ -1,0 +1,12 @@
+numpy
+opencv-contrib-python
+
+torchvision
+
+poutyne
+Pillow
+imageio
+tqdm
+
+torchviz
+gdown

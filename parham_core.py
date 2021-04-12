@@ -82,7 +82,7 @@ def prepare_subsets(orig_ds_dir : str, target_dir : str):
     training_ds_dir = os.path.join(target_dir, 'training')
     testing_ds_dir = os.path.join(target_dir, 'testing')
     
-    if not os.path.isdir(orig_ds_dir):
+    if os.path.isdir(orig_ds_dir):
         print('Make required folder for the dataset ...')
         Path(training_ds_dir).mkdir(parents=True, exist_ok=True)
         Path(testing_ds_dir).mkdir(parents=True, exist_ok=True)
