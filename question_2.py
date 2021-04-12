@@ -421,6 +421,10 @@ def run_pipeline(
 # 
 # ![Picasso](img/picasso.jpg) 
 
+#%%
+result_dir = 'results/question_2'
+Path(result_dir).mkdir(parents=True, exist_ok=True)
+
 #%%[markdown]
 # ## Experiment 1-a : original values for hyperparameters
 # 
@@ -432,10 +436,9 @@ def run_pipeline(
 # |__Content Weight__|1|
 
 #%%
-result_dir = os.path.join('results/question_2/experiment_1_a.jpg')
-Path(result_dir).mkdir(parents=True, exist_ok=True)
+result_path = os.path.join(result_dir,'experiment_1_a.jpg')
 run_pipeline(
-    result_dir,
+    result_path,
     content_img_path = 'img/content_1.jpg', 
     style_img_path = 'img/picasso.jpg', 
     content_layers= ['conv_4'],
@@ -457,10 +460,9 @@ run_pipeline(
 # |__Content Weight__|1|
 
 #%%
-result_dir = os.path.join('results/question_2/experiment_1_b.jpg')
-Path(result_dir).mkdir(parents=True, exist_ok=True)
+result_path = os.path.join(result_dir,'experiment_1_b.jpg')
 run_pipeline(
-    result_dir,
+    result_path,
     content_img_path = 'img/content_1.jpg', 
     style_img_path = 'img/picasso.jpg', 
     content_layers= ['conv_2', 'conv_4', 'conv_5'],
@@ -482,10 +484,9 @@ run_pipeline(
 # |__Content Weight__|1|
 
 #%%
-result_dir = os.path.join('results/question_2/experiment_1_c.jpg')
-Path(result_dir).mkdir(parents=True, exist_ok=True)
+result_path = os.path.join(result_dir,'experiment_1_c.jpg')
 run_pipeline(
-    result_dir,
+    result_path,
     content_img_path = 'img/content_1.jpg', 
     style_img_path = 'img/picasso.jpg', 
     content_layers= ['conv_4'],
@@ -507,10 +508,9 @@ run_pipeline(
 # |__Content Weight__|200|
 
 #%%
-result_dir = os.path.join('results/question_2/experiment_1_d.jpg')
-Path(result_dir).mkdir(parents=True, exist_ok=True)
+result_path = os.path.join(result_dir,'experiment_1_d.jpg')
 run_pipeline(
-    result_dir,
+    result_path,
     content_img_path = 'img/content_1.jpg', 
     style_img_path = 'img/picasso.jpg', 
     content_layers= ['conv_4'],
@@ -532,10 +532,9 @@ run_pipeline(
 # |__Content Weight__|1|
 
 #%%
-result_dir = os.path.join('results/question_2/experiment_1_e.jpg')
-Path(result_dir).mkdir(parents=True, exist_ok=True)
+result_path = os.path.join(result_dir,'experiment_1_e.jpg')
 run_pipeline(
-    result_dir,
+    result_path,
     content_img_path = 'img/content_1.jpg', 
     style_img_path = 'img/picasso.jpg', 
     content_layers= ['conv_4'],
@@ -557,10 +556,9 @@ run_pipeline(
 # |__Content Weight__|1|
 
 #%%
-result_dir = os.path.join('results/question_2/experiment_1_f.jpg')
-Path(result_dir).mkdir(parents=True, exist_ok=True)
+result_path = os.path.join(result_dir,'experiment_1_f.jpg')
 run_pipeline(
-    result_dir,
+    result_path,
     content_img_path = 'img/content_1.jpg', 
     style_img_path = 'img/picasso.jpg', 
     content_layers= ['conv_1'],
@@ -582,10 +580,9 @@ run_pipeline(
 # |__Content Weight__|1|
 
 #%%
-result_dir = os.path.join('results/question_2/experiment_1_g.jpg')
-Path(result_dir).mkdir(parents=True, exist_ok=True)
+result_path = os.path.join(result_dir,'experiment_1_g.jpg')
 run_pipeline(
-    result_dir,
+    result_path,
     content_img_path = 'img/content_1.jpg', 
     style_img_path = 'img/picasso.jpg', 
     content_layers= ['conv_1'],
@@ -607,10 +604,9 @@ run_pipeline(
 # |__Content Weight__|1|
 
 #%%
-result_dir = os.path.join('results/question_2/experiment_2_a.jpg')
-Path(result_dir).mkdir(parents=True, exist_ok=True)
+result_path = os.path.join(result_dir,'experiment_2_a.jpg')
 run_pipeline(
-    result_dir,
+    result_path,
     content_img_path = 'img/content_1.jpg', 
     style_img_path = 'img/style_1.jpg', 
     content_layers= ['conv_4'],
@@ -632,10 +628,9 @@ run_pipeline(
 # |__Content Weight__|1|
 
 #%%
-result_dir = os.path.join('results/question_2/experiment_2_b.jpg')
-Path(result_dir).mkdir(parents=True, exist_ok=True)
+result_path = os.path.join(result_dir,'experiment_2_b.jpg')
 run_pipeline(
-    result_dir,
+    result_path,
     content_img_path = 'img/content_1.jpg', 
     style_img_path = 'img/style_1.jpg', 
     content_layers= ['conv_2', 'conv_4', 'conv_5'],
@@ -657,10 +652,9 @@ run_pipeline(
 # |__Content Weight__|1|
 
 #%%
-result_dir = os.path.join('results/question_2/experiment_2_c.jpg')
-Path(result_dir).mkdir(parents=True, exist_ok=True)
+result_path = os.path.join(result_dir,'experiment_2_c.jpg')
 run_pipeline(
-    result_dir,
+    result_path,
     content_img_path = 'img/content_1.jpg', 
     style_img_path = 'img/style_1.jpg', 
     content_layers= ['conv_4'],
@@ -682,10 +676,9 @@ run_pipeline(
 # |__Content Weight__|200|
 
 #%%
-result_dir = os.path.join('results/question_2/experiment_2_d.jpg')
-Path(result_dir).mkdir(parents=True, exist_ok=True)
+result_path = os.path.join(result_dir,'experiment_2_d.jpg')
 run_pipeline(
-    result_dir,
+    result_path,
     content_img_path = 'img/content_1.jpg', 
     style_img_path = 'img/style_1.jpg', 
     content_layers= ['conv_4'],
@@ -707,10 +700,9 @@ run_pipeline(
 # |__Content Weight__|1|
 
 #%%
-result_dir = os.path.join('results/question_2/experiment_2_e.jpg')
-Path(result_dir).mkdir(parents=True, exist_ok=True)
+result_path = os.path.join(result_dir,'experiment_2_e.jpg')
 run_pipeline(
-    result_dir,
+    result_path,
     content_img_path = 'img/content_1.jpg', 
     style_img_path = 'img/style_1.jpg', 
     content_layers= ['conv_4'],
@@ -732,10 +724,9 @@ run_pipeline(
 # |__Content Weight__|1|
 
 #%%
-result_dir = os.path.join('results/question_2/experiment_2_f.jpg')
-Path(result_dir).mkdir(parents=True, exist_ok=True)
+result_path = os.path.join(result_dir,'experiment_2_f.jpg')
 run_pipeline(
-    result_dir,
+    result_path,
     content_img_path = 'img/content_1.jpg', 
     style_img_path = 'img/style_1.jpg', 
     content_layers= ['conv_1'],
@@ -757,10 +748,9 @@ run_pipeline(
 # |__Content Weight__|1|
 
 #%%
-result_dir = os.path.join('results/question_2/experiment_2_g.jpg')
-Path(result_dir).mkdir(parents=True, exist_ok=True)
+result_path = os.path.join(result_dir,'experiment_2_g.jpg')
 run_pipeline(
-    result_dir,
+    result_path,
     content_img_path = 'img/content_1.jpg', 
     style_img_path = 'img/style_1.jpg', 
     content_layers= ['conv_1'],
@@ -782,10 +772,9 @@ run_pipeline(
 # |__Content Weight__|1|
 
 #%%
-result_dir = os.path.join('results/question_2/experiment_3_a.jpg')
-Path(result_dir).mkdir(parents=True, exist_ok=True)
+result_path = os.path.join(result_dir,'experiment_3_a.jpg')
 run_pipeline(
-    result_dir,
+    result_path,
     content_img_path = 'img/content_1.jpg', 
     style_img_path = 'img/style_2.jpg', 
     content_layers= ['conv_4'],
@@ -807,10 +796,9 @@ run_pipeline(
 # |__Content Weight__|1|
 
 #%%
-result_dir = os.path.join('results/question_2/experiment_3_b.jpg')
-Path(result_dir).mkdir(parents=True, exist_ok=True)
+result_path = os.path.join(result_dir,'experiment_3_b.jpg')
 run_pipeline(
-    result_dir,
+    result_path,
     content_img_path = 'img/content_1.jpg', 
     style_img_path = 'img/style_2.jpg', 
     content_layers= ['conv_2', 'conv_4', 'conv_5'],
@@ -832,10 +820,9 @@ run_pipeline(
 # |__Content Weight__|1|
 
 #%%
-result_dir = os.path.join('results/question_2/experiment_3_c.jpg')
-Path(result_dir).mkdir(parents=True, exist_ok=True)
+result_path = os.path.join(result_dir,'experiment_3_c.jpg')
 run_pipeline(
-    result_dir,
+    result_path,
     content_img_path = 'img/content_1.jpg', 
     style_img_path = 'img/style_2.jpg', 
     content_layers= ['conv_4'],
@@ -857,10 +844,9 @@ run_pipeline(
 # |__Content Weight__|200|
 
 #%%
-result_dir = os.path.join('results/question_2/experiment_3_d.jpg')
-Path(result_dir).mkdir(parents=True, exist_ok=True)
+result_path = os.path.join(result_dir,'experiment_3_d.jpg')
 run_pipeline(
-    result_dir,
+    result_path,
     content_img_path = 'img/content_1.jpg', 
     style_img_path = 'img/style_2.jpg', 
     content_layers= ['conv_4'],
@@ -882,10 +868,9 @@ run_pipeline(
 # |__Content Weight__|1|
 
 #%%
-result_dir = os.path.join('results/question_2/experiment_3_e.jpg')
-Path(result_dir).mkdir(parents=True, exist_ok=True)
+result_path = os.path.join(result_dir,'experiment_3_e.jpg')
 run_pipeline(
-    result_dir,
+    result_path,
     content_img_path = 'img/content_1.jpg', 
     style_img_path = 'img/style_2.jpg', 
     content_layers= ['conv_4'],
@@ -907,10 +892,9 @@ run_pipeline(
 # |__Content Weight__|1|
 
 #%%
-result_dir = os.path.join('results/question_2/experiment_3_f.jpg')
-Path(result_dir).mkdir(parents=True, exist_ok=True)
+result_path = os.path.join(result_dir,'experiment_3_f.jpg')
 run_pipeline(
-    result_dir,
+    result_path,
     content_img_path = 'img/content_1.jpg', 
     style_img_path = 'img/style_2.jpg', 
     content_layers= ['conv_1'],
@@ -932,10 +916,9 @@ run_pipeline(
 # |__Content Weight__|1|
 
 #%%
-result_dir = os.path.join('results/question_2/experiment_3_g.jpg')
-Path(result_dir).mkdir(parents=True, exist_ok=True)
+result_path = os.path.join(result_dir,'experiment_3_g.jpg')
 run_pipeline(
-    result_dir,
+    result_path,
     content_img_path = 'img/content_1.jpg', 
     style_img_path = 'img/style_2.jpg', 
     content_layers= ['conv_1'],
