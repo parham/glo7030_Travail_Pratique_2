@@ -17,9 +17,9 @@
 ## About The Project
 **GLO-7030** : Apprentissage par réseaux de neurones profonds (Travail Pratique 2)
 
-    __Course__: GLO-4030/GLO-7030 : Apprentissage par réseaux de neurones profonds <br>
-__Title__: Travail Pratique 2 <br>
-__Semester__: Winter 2021 <br>
-__Lecturer__: Dr. Pascal Germain <br>
-__Author__: Parham Nooralishahi <br>
-__Organization__: Université Laval <br>
+**Course**: GLO-4030/GLO-7030 : Apprentissage par réseaux de neurones profonds <br>
+**Title**: Travail Pratique 2 <br>
+**Semester**: Winter 2021 <br>
+**Lecturer**: Dr. Pascal Germain <br>
+**Author**: Parham Nooralishahi <br>
+**Organization**: Université Laval <br>
