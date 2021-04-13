@@ -6,11 +6,6 @@
   </a>
 
   <h3 align="center">Inspecteur Intelligent</h3>
-
-  <p align="center">
-	Drone-based Crack Detection for inspection of pavement concrete structures.
-    <br/>
-    <br/>
   </p>
 </p>
 
