@@ -5,7 +5,8 @@
     <img src="https://ssc.ca/sites/default/files/logo-ulaval-reseaux-sociaux.jpg" alt="Logo" width="280" height="100">
   </a>
 
-  <h3 align="center">Inspecteur Intelligent</h3>
+  <h3 align="center">Apprentissage par réseaux de neurones profonds</h3>
+  <h4 align="center">Travail Pratique 2</h4>
   </p>
 </p>
 
