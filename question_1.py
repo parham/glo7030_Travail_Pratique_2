@@ -133,7 +133,7 @@ make_dot(out_test.mean(), params=dict(model.named_parameters()))
 
 #%% 
 
-epoch = 50
+epoch = 31
 batch_size = 68
 learning_rate = 0.1
 momentum = 0.9
