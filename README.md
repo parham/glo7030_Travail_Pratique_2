@@ -6,12 +6,12 @@
   </a>
 
   <h3 align="center">Apprentissage par réseaux de neurones profonds</h3>
+  <h3 align="center">GLO-7030</h3>
   <h4 align="center">Travail Pratique 2</h4>
   </p>
 </p>
 
 ## About The Project
-**GLO-7030** : Apprentissage par réseaux de neurones profonds (Travail Pratique 2)
 
 **Course**: GLO-4030/GLO-7030 : Apprentissage par réseaux de neurones profonds <br>
 **Title**: Travail Pratique 2 <br>
