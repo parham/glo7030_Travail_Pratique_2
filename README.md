@@ -5,17 +5,13 @@
     <img src="https://ssc.ca/sites/default/files/logo-ulaval-reseaux-sociaux.jpg" alt="Logo" width="280" height="100">
   </a>
 
-  <h3 align="center">Inspecteur Intelligent</h3>
-
-  <p align="center">
-	Drone-based Crack Detection for inspection of pavement concrete structures.
-    <br/>
-    <br/>
+  <h3 align="center">Apprentissage par réseaux de neurones profonds</h3>
+  <h3 align="center">GLO-7030</h3>
+  <h4 align="center">Travail Pratique 2</h4>
   </p>
 </p>
 
 ## About The Project
-**GLO-7030** : Apprentissage par réseaux de neurones profonds (Travail Pratique 2)
 
 **Course**: GLO-4030/GLO-7030 : Apprentissage par réseaux de neurones profonds <br>
 **Title**: Travail Pratique 2 <br>
