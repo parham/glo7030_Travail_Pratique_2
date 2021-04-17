@@ -68,11 +68,12 @@ def get_cub200(dir_path: str):
     if not os.path.exists(ds_zipfile):
         print('Download the dataset zip file ...')
         gdown.download(url, output=ds_zipfile, quiet=False)
-        # Extract the tgz file into the dataset directory
-        print('Extract the zip file ...')
-        tar = tarfile.open(ds_zipfile, "r:gz")
-        tar.extractall(path=dir_path)
-        tar.close()
+
+    # Extract the tgz file into the dataset directory
+    print('Extract the zip file ...')
+    tar = tarfile.open(ds_zipfile, "r:gz")
+    tar.extractall(path=dir_path)
+    tar.close()
 
     return os.path.join(dir_path, 'images')
 

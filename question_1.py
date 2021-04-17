@@ -123,7 +123,7 @@ make_dot(out_test.mean(), params=dict(model.named_parameters()))
 # 
 # |__Parameters__|__Values__|
 # |--------------|----------|
-# |__Epoch Number__|20|
+# |__Epoch Number__|31|
 # |__Batch Size__|68|
 # |__Learning Rate__|0.1|
 # |__Momentum__|0.9|
