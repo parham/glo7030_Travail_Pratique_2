@@ -19,3 +19,7 @@
 **Lecturer**: Dr. Pascal Germain <br>
 **Author**: Parham Nooralishahi <br>
 **Organization**: Université Laval <br>
+
+## Report
+
+[Latest Report](http://github.com/parham/glo7030_Travail_Pratique_2/blob/main/report.pdf)
